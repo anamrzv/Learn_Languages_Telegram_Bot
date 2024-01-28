@@ -1,0 +1,27 @@
+{
+    "name": "ycf-telegram-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "deploy": "bash deploy/create-func-ver.sh"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@grammyjs/conversations": "^1.2.0",
+        "@grammyjs/menu": "^1.0.2",
+        "@yandex-cloud/nodejs-sdk": "^2.6.0",
+        "dotenv": "^16.3.1",
+        "grammy": "^1.4.3",
+        "reverso-api": "^2.22.7",
+        "uuid": "^9.0.1",
+        "ydb-sdk": "^5.1.1"
+    },
+    "devDependencies": {
+        "@types/node": "~20.11.9",
+        "ts-node": "^10.9.2",
+        "tsconfig-paths": "^4.2.0",
+        "typescript": "^5.3.3"
+    }
+}
