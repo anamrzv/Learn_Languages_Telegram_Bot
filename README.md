@@ -11,3 +11,11 @@
 ### Архитектура решения
 
 <img width="870" alt="image" src="https://github.com/anamrzv/bot/assets/79102850/02deb46c-94e8-47c8-8c8d-dfd102d7ce4b">
+
+### Перед запуском
+
+Создать файл .env с ключами:
+
+* FUNCTION_NAME=<имя облачной функции>
+* SERVICE_ACCOUNT_ID=<id аккаунта из yandex cloud>
+* FOLDER_ID=<id папки облачной функции>
